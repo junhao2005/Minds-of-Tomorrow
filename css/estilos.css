@@ -85,3 +85,13 @@ body{
 .colorcol4 {
     background-color: rgb(0, 255, 157);
 }
+
+.colorpart5 {
+    background-color: rgb(0, 132, 255);
+}
+
+.colorpie {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
