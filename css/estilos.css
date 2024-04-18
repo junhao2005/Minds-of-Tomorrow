@@ -13,3 +13,32 @@ body{
 .tituloimg {
     font-size: 80px;
 }
+
+.row {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.rowflex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imgsection1 {
+    width: 110%;
+    height: auto;
+}
+
+.texto-estrecho {
+    font-stretch: condensed; /* Hace que la fuente sea más estrecha */
+    letter-spacing: -1px; /* Reduce el espacio entre las letras */
+    word-spacing: -2px; /* Reduce el espacio entre las palabras */
+    font-size: 34px;
+}
+
+.col2 {
+    width: 50%;
+    float: left;
+}
