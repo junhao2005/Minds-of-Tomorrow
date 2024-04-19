@@ -116,22 +116,18 @@ body{
 
 
     body{
-        margin-left: 2%;
-        margin-right: 2%;
+        margin-left: 5%;
+        margin-right: 5%;
     }
 
-    .row {
-        display: block;
-    }
 
-    
-.rowflex {
-    display: block;
-}
+    .rowflex {
+     display: table;
+     font-size: 20px;
+    }
 
     .col2 {
         width: 100%;
-        align-items: center;
     }
 
     .col2-right {
@@ -139,27 +135,33 @@ body{
     }
 
     
-.col4 {
-    width: 50%;
-    float: left;
-}
+    .col4 {
+         width: 50%;
+    }
 
-.row4col {
-    display: block;
-}
-
+    .row4col {
+        display: table;
+    }
 
 
-.col4-juntos {
-    width: 50%;
-    float: left;
-}
 
-.img-col4-juntos {
-    width: 50%;
-    display: block;
-}
+    .col4-juntos {
+         width: 50%;
+        float: left;
+    }
 
+    .img-col4-juntos {
+        width: 100%;
+        display: table;
+    }
 
+    .img {
+        padding: 30vh 10px;
+    }
+
+    .tituloimg {
+        font-size: 60px;
+        text-align: center;
+    }
     
 }
