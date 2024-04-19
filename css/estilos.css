@@ -1,26 +1,25 @@
-body{
+body{                               /* ancha de pagina */
     margin-left: 12%;
     margin-right: 12%;
 }
 
 .img {
-    text-align: center;
-    background-image: url('../img/banner-2.jpg');
+    text-align: center;                                 /* centrar textos */
+    background-image: url('../img/banner-2.jpg');       /* fondo de pantalla */
     background-size: cover;
-    padding: 30vh 100px;
-    height: 100vh;
-    font-size: 70px;
+    padding: 30vh 100px;                            /* para fondo de pantalla */
+    height: 100vh;          /* Espaciado y tamaño */
+    font-size: 70px;        /* altura imagen */
  }
 
-.tituloimg {
-    font-size: 70px;
-    text-align: center;
+.tituloimg {            /* Estilos para el título de la imagen */
+    font-size: 70px;        /* Tamaño letra */
+    text-align: center;     /* centrar textos */
 }
 
 .row {
-   
-    display: table;
-    clear: both;
+    display: table;             /*hace que un elemento HTML actúe como una tabla*/
+    clear: both;                     /* para que no se mueva */
 }
 
 .rowflex {
@@ -30,7 +29,7 @@ body{
 }
 
 .imgsection1-2 {
-    width: 95%;
+    width: 95%;                 /* centrar textos */
     height: auto;
 }
 
@@ -43,12 +42,12 @@ body{
 
 .col2 {
     width: 50%;
-    float: left;
+    float: left;             /* para que se ponga a izquierda */
 }
 
 .col2-right {
     width: 50%;
-    float: right;
+    float: right;            /* para que se ponga a derecha */
 }
 
 .col1 {
@@ -86,15 +85,15 @@ body{
 }
 
 .colorcol4 {
-    background-color: rgb(0, 255, 157);
+    background-color: rgb(0, 255, 157);             /* color fondo */
 }
-
+                                                
 .colorpart5 {
-    background-color: rgb(0, 132, 255);
+    background-color: rgb(0, 132, 255);             /* color fondo */
 }
 
 .colorpie {
-    background-color: black;
+    background-color: black;                    /* Color de fondo y texto blanco y texto centrado */
     color: white;
     text-align: center;
 }
@@ -102,7 +101,7 @@ body{
 .permanent-marker-regular {
     font-family: "Permanent Marker", cursive;
     font-weight: 400;
-    font-style: normal;
+    font-style: normal;                         /* Estilos de fuente permanente */
   }
   .letras {
     font-family: "Varela Round", sans-serif;
@@ -112,7 +111,7 @@ body{
     
   
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 700px) {              /* Media queries para pantalla pequeño de 700px */
 
 
     body{
@@ -144,7 +143,6 @@ body{
     }
 
 
-
     .col4-juntos {
          width: 50%;
         float: left;
@@ -155,7 +153,7 @@ body{
         display: table;
     }
 
-    .img {
+    .img {                          /* Ajusta el espaciado de la imagen en pantallas pequeñas */
         padding: 30vh 10px;
     }
 
